@@ -1,0 +1,26 @@
+.inner-container{
+    background:linear-gradient( rgb(9, 9, 189),rgb(109, 109, 250));
+    gap:1rem;
+    padding:2rem;
+    border: 2px solid rgb(4, 4, 151);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inner-container .primaryText{
+    color:whitesmoke;
+    font-weight: 600;
+}
+.inner-container .secondaryText{
+    color:rgb(220, 211, 211);
+    font-weight: 600;
+}
+
+.inner-container .button{
+    border:2px solid white;
+    border-radius: 10px;
+   
+}
+.inner-container .button:hover{
+    box-shadow: 5px 5px rgb(77, 66, 66);
+}

@@ -1,0 +1,26 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+.App>:nth-child(1){
+    background: black;
+    position: relative;
+}
+.white-grad{
+    position: absolute;
+    width:20rem;
+    height:20rem;
+    background:rgb(220, 201, 201);
+    filter:blur(100px);
+    border-radius: 100px;
+}
+.yellow-grad{
+    position: absolute;
+    width:10rem;
+    height:10rem;
+    background:rgb(243, 248, 123);
+    filter:blur(100px);
+    border-radius: 100px;
+    right:2%;
+    top:90%;
+}
