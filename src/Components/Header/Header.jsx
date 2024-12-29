@@ -20,10 +20,10 @@ import OutsideClickHandler from "react-outside-click-handler"
                 }}>
                 <div className="flexCenter h-menu"
                 style={getMenuStyle(menuOpened)}>
-                    <a href="">Residencies </a>
-                    <a href="">Our Value</a>
-                    <a href="">Contact Us</a>
-                    <a href="">Get Started</a>
+                    <a href="#residences">Residencies </a>
+                    <a href="#values">Our Value</a>
+                    <a href="#contact">Contact Us</a>
+                    <a href="#getstarted">Get Started</a>
                     <button type="button" class="button">
                     <a href="">Contact</a>
                     </button>

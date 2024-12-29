@@ -15,7 +15,7 @@ import data from "../../utils/accordion"
 
 const Value=()=>{
     return (
-        <section className="v-wrapper">
+        <section className="v-wrapper" id="values">
         <div className="paddings innerWidth flexCenter v-container">
         <div className="flexCenter v-left">
                 <div className="image-container">
